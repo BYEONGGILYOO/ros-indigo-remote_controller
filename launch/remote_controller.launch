@@ -17,5 +17,5 @@
 	<param name="scale_angular" value="2" type="double"/>
 
 <!---- remote_controller node ---->
-	<node pkg="remote_controller" type="joystick_node" name="remote_controller"/>
+	<node pkg="remote_controller" type="remote_controller_node" name="remote_controller"/>
 </launch>
